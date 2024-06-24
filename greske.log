@@ -1,0 +1,48 @@
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\prodavnica\admin.php on line 43
+[02-Jul-2021 09:11:09 Europe/Berlin] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in C:\xampp\htdocs\eapoteka\db.php on line 604
+[02-Jul-2021 09:11:09 Europe/Berlin] PHP Warning:  MysqliDb::_prepareQuery(): Couldn't fetch mysqli in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:11:09 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID )  in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:15 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID ) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:53 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID ) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:57 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID  order by l.cena asc) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
+[02-Jul-2021 09:14:59 Europe/Berlin] PHP Fatal error:  Problem preparing query (select * from lekovi l join kategorijalekova kl  on l.kategorijaID = kl.kategorijaID  order by l.cena desc) Table 'eapoteka.lekovi' doesn't exist in C:\xampp\htdocs\eapoteka\db.php on line 605
+[06-Jul-2021 12:15:31 Europe/Berlin] PHP Notice:  Undefined variable: poruka in C:\xampp\htdocs\eapoteka\admin.php on line 124
+[06-Jul-2021 12:16:55 Europe/Berlin] PHP Notice:  Undefined variable: poruka in C:\xampp\htdocs\eapoteka\admin.php on line 123
+[06-Jul-2021 12:18:09 Europe/Berlin] PHP Notice:  Undefined variable: poruka in C:\xampp\htdocs\eapoteka\admin.php on line 123
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:33:33 Europe/Berlin] PHP Notice:  Undefined index: Kategorija in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:24 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:34:40 Europe/Berlin] PHP Notice:  Undefined index: kategorijaID in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:36:53 Europe/Berlin] PHP Fatal error:  Problem preparing query (SELECT k.nazivKategorije, count(l.lekID) AS ukupno FROM lekovi l JOIN kategorijalekova k ON (l.kategorijaID = k.kategorijaID)  GROUP BY kategorijaID) Column 'kategorijaID' in group statement is ambiguous in C:\xampp\htdocs\eapoteka\db.php on line 605
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 12:38:21 Europe/Berlin] PHP Notice:  Undefined index: k.nazivKategorije in C:\xampp\htdocs\eapoteka\grafik.php on line 14
+[06-Jul-2021 16:17:26 Europe/Berlin] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\eapoteka\upload.php on line 39
+[06-Jul-2021 16:17:26 Europe/Berlin] PHP Warning:  log() expects parameter 1 to be float, string given in C:\xampp\htdocs\eapoteka\upload.php on line 39
